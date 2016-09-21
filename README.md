@@ -21,3 +21,6 @@ Omdat we de koppeling met een backend hebben, hebben we ervoor gekozen om daar o
 
 - er een afhankelijkheid van (tijdelijke) lokale adressen zou zijn;
 - en we hoeven geen (`base64`) fotodata op te slaan (waarmee we een hoop ruimte besparen op het device).
+
+## Extern filesysteem
+Op de server slaan we de foto's niet op in de database. Alleen een referentie ernaar. De foto's zelf uploaden we in een filesysteem: het zijn tenslotte files. Dit zorgt ervoor dat de database "klein" en snel blijft.
