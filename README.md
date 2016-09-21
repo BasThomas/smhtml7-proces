@@ -29,3 +29,8 @@ Op de server slaan we de foto's niet op in de database. Alleen een referentie er
 We hebben ervoor gekozen de native Google Maps te gebruiken, in plaats van de JS Google Maps. De reden daarvoor is simpel: daarmee voelt de map native aan. In de JS API wordt gebruik gemaakt van de Maps zoals je die op een website ziet; dat is niet iets wat je wilt zien in een app.
 
 Daarbij is de native API efficiënter / sneller te laden. Zeker met de tragere (Android) devices die we gebruiken, is dit geen slechte (bijkomende) eigenschap.
+
+## Search by name -> Search by coordinates
+Op de website worden naast de foto's, ook een map getoond van de plaats waar de foto's zijn gemaakt. Dat zijn Google Maps. In eerste instantie werden deze opgehaald aan de hand van namen van bezienswaardigheden; maar omdat Google Maps niet van alle Wikipedia-pagina's op de hoogte is, gaf deze het soms op en werd er geen marker getoond. Je zag gewoon de wereldbol.
+
+Omdat dit geen fijne gebruikerservaring is, zijn we in plaat van de namen, de kaarten gaan tonen op basis van "hardcoded" coördinaten - die uiteraard werden meegegeven vanuit de Wikipedia API / de app. Win-win!
