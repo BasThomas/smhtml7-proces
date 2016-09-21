@@ -34,3 +34,6 @@ Daarbij is de native API efficiënter / sneller te laden. Zeker met de tragere (
 Op de website worden naast de foto's, ook een map getoond van de plaats waar de foto's zijn gemaakt. Dat zijn Google Maps. In eerste instantie werden deze opgehaald aan de hand van namen van bezienswaardigheden; maar omdat Google Maps niet van alle Wikipedia-pagina's op de hoogte is, gaf deze het soms op en werd er geen marker getoond. Je zag gewoon de wereldbol.
 
 Omdat dit geen fijne gebruikerservaring is, zijn we in plaat van de namen, de kaarten gaan tonen op basis van "hardcoded" coördinaten - die uiteraard werden meegegeven vanuit de Wikipedia API / de app. Win-win!
+
+## Efficiënt API-gebruik
+Er is stilgestaan bij dataverbruik van gebruikers - en gewoon "wat logisch is" - bij het ophalen van informatie met behulp van een API. Zo wordt bij het overzicht van bezienswaardigheden alleen de naam en bijhorende coördinaten opgehaald - pas als de gebruiker de locatie opslaat, wordt de overige informatie (lees: de introtekst van Wikipedia) opgehaald. Daarmee wordt er geen data verbruikt wanneer dat niet nodig is, en zou de applicatie in theorie ook nog iets sneller moeten zijn.
