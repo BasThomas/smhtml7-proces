@@ -24,3 +24,8 @@ Omdat we de koppeling met een backend hebben, hebben we ervoor gekozen om daar o
 
 ## Extern filesysteem
 Op de server slaan we de foto's niet op in de database. Alleen een referentie ernaar. De foto's zelf uploaden we in een filesysteem: het zijn tenslotte files. Dit zorgt ervoor dat de database "klein" en snel blijft.
+
+## Native Google Maps in plaats van JS Google Maps
+We hebben ervoor gekozen de native Google Maps te gebruiken, in plaats van de JS Google Maps. De reden daarvoor is simpel: daarmee voelt de map native aan. In de JS API wordt gebruik gemaakt van de Maps zoals je die op een website ziet; dat is niet iets wat je wilt zien in een app.
+
+Daarbij is de native API efficiënter / sneller te laden. Zeker met de tragere (Android) devices die we gebruiken, is dit geen slechte (bijkomende) eigenschap.
