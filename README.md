@@ -1,7 +1,7 @@
 # Proces
 
 ## User stories op Trello
-Om voor al onze user stories bij te houden wat de status van deze user story was en wat eventuele deeltaken van deze userstorie waren hebben we gebruik gemaakt van Trello. Wij hebben voor Trello gekozen omdat dit een gratis online platform is dat makkelijk en snel te gebruiken is. Trello is een agileboard waar je user stories kan aanmaken en deze kunt opdelen in taken. Ook is het mogelijk om iedere userstory een of meerdere tags te geven. Deze tags hebben wij gebruikt om aan te geven in welke sprint we de userstory gingen realiseren en welke prioriteit deze had. Ook hebben we in Trello aangegeven wie aan welke taak bezig was zodat dit niet door elkaar ging lopen.
+Om al onze user stories bij te houden (wat de status van deze user story was en wat eventuele deeltaken van deze userstorie waren) hebben we gebruik gemaakt van Trello. Wij hebben voor Trello gekozen omdat dit een gratis online platform is dat makkelijk en snel te gebruiken is. Trello is een agileboard waar je user stories kan aanmaken en deze kunt opdelen in taken. Ook is het mogelijk om iedere user story een of meerdere tags te geven. Deze tags hebben wij gebruikt om aan te geven in welke sprint we de user story gingen realiseren en welke prioriteit deze had. Ook hebben we in Trello aangegeven wie aan welke taak bezig was zodat dit niet door elkaar ging lopen.
 
 ## Switch van Google Places naar Wikipedia API
 We waren van plan de API van Google Places te gebruiken om interessante bezienswaardigheden op te halen en in de app weer te geven. Na daar kort onderzoek naar te hebben gedaan, bleek het niet helemaal passen:
